@@ -20,7 +20,7 @@ using namespace std;
 
 bool isPalindrome(string); //this function will check if input is a palindrome
 string editString(string); //this function will edit the input string.
-						// the edited string with have all capital letters,no spaces, and no punctuation
+			// the edited string with have all capital letters,no spaces, and no punctuation
 int main()
 {
 	bool palindrome = false;
