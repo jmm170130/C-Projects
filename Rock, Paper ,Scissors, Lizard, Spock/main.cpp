@@ -1,7 +1,5 @@
-  //<Juan Marquez>
-
-	//This program will play the game of “Rock, Paper, Scissors, Lizard, Spock”.
-
+//<Juan Marquez>
+//This program will play the game of “Rock, Paper, Scissors, Lizard, Spock”.
 	//First the program will generate a random number in the range of 0 through 4 inclusive
 	//then the program will output the options available to the user
 	//get input from the user.
