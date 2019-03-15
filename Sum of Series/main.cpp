@@ -23,7 +23,7 @@ int main()
 	//Declare variables
 	double inputValue = 0.0; //variable will hold the user input
 
-							 //use do- while loop to continue until 0 is entered
+	//use do- while loop to continue until 0 is entered
 	do
 	{
 		//ask and accept input greater than 1 to calculate the sum of the series. Enter 0 to stop the program.
