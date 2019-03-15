@@ -18,15 +18,12 @@ using namespace std;
 
 int main()
 {
-//declare package variable, flight hours variable and weekend usage variable
-
+	//declare package variable, flight hours variable and weekend usage variable
 	char package; // Package type. character can only be A B or C
 	short int flightHours; //amount of flight hours used. flight hours should be whole
 	char weekendUsage; //if more than 50% of flight hours were used during the weekend. can only be Y or N
 
-//display packages and ask for input
-
-
+	//display packages and ask for input
 	cout << "Enter A, B, or C to indicate the plan purchased by the user:" << endl;
 																							//setw was used to align everything
 	cout << setw(4) << "A" << " - $100,000.00 per month with 50 flight hours." << endl;
@@ -42,7 +39,7 @@ int main()
 
 
 
-// get input for package. cin.get used to terminate program if "enter" is entered
+	// get input for package. cin.get used to terminate program if "enter" is entered
 	cin.get(package);	// accepts "Enter" as an input
 	if( (package >= 'A' && package <= 'C' ) || (package >= 'a' && package <= 'c')) //if package is A - C then ignore anything after first character
 	{
@@ -50,14 +47,14 @@ int main()
 		cout << "You selected Package: " << package << endl; //output package selected
 	}
 
-//If input is not a ,b or c then terminate program
+	//If input is not a ,b or c then terminate program
 	else
 	{
 		cout << "Sorry this is not a valid entry!" << endl;
 		cout << "Run the program again and enter a valid entry( A, B or C)" << endl;
 		return 0;
 	}
-//ask for number of flight hours
+	//ask for number of flight hours
 	cout << "Please enter the number of flight hours used by the customer" << endl;
 	cout << "(should be a whole, non-negative number): ";
 	cin >> flightHours;
@@ -75,7 +72,7 @@ int main()
 
 		return 0;
 	}
-//output question about weekend usage
+	//output question about weekend usage
 	if (((package == 'a') || (package == 'A')) && flightHours > 50) //if package is A  and flight hours is greater than 50 continue.
 	{
 		cout << "Did the customer use 50% or more of the flight hours" << endl;
@@ -198,8 +195,6 @@ int main()
 			cout << "The customer's cost for the month is $250000.00" << endl;
 		}
 	}
-
-
 	return 0;
 }
 
