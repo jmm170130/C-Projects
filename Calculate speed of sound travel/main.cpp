@@ -1,3 +1,14 @@
+//This program will ask for the medium that sound will travel through
+//Then it will ask for the number of seconds it will travel throught that medium
+//and then calculating how far sound can travel in a specified medium in that many seconds.
+
+//output options for medium and ask for input
+//Use if - else statement to verify valid input
+//if input is valid then ask for time in seconds that it traveled
+// time must be between 0 and 30 (inclusive) if not output message
+// if input is valid then output value entered with 1 digit of precision (fixed)
+//calculate meters traveled with 2 digits of precision
+
 #include <iostream>
 #include <iomanip>
 
@@ -5,17 +16,6 @@ using namespace std;
 
 int main ()
 {
-	//This program will read in the number of seconds
-	//and then calculating how far sound can travel in a specified medium in that many seconds.
-
-
-	//output options for medium and ask for input
-	//Use if - else statement to verify valid input
-	//if input is valid then ask for time in seconds that it traveled
-	// time must be between 0 and 30 (inclusive) if not output message
-	// if input is valid then output value entered with 1 digit of precision (fixed)
-	//calculate meters traveled with 2 digits of precision
-
 	//declare variable medium and seconds
 	unsigned int medium;
 	double seconds;
