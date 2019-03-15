@@ -8,7 +8,16 @@
 *   If the input is invalid it will ask for input again
 *   Once valid input is entered the program will execute the function selected
 *   It will repeat this process until the user enters 7
-
+*
+*Functions:
+*	displayAccountInfo - used to display info for a specific account
+*	displayAllInfo - display info for all accounts
+*	createSavingsAccount
+*	createCheckingsAccount
+*	CreateBankAccount
+*	deposit
+*	withdraw
+*
 *  Written by Juan Marquez, starting April 2, 2018.
 ******************************************************************************/
 
