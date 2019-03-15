@@ -17,9 +17,6 @@
 using namespace std;
 
 int inputValidation(int); //this function will validate the users input
-//void createMagicSquare(userInput);
-//void displayMagicSquare(int); //this function will display the Magic Square
-
 
 int main()
 {
