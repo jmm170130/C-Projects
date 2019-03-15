@@ -1,3 +1,12 @@
+//This program will be a quiz grading program.
+//It will compare the student's answers( inside a file) with the correct answers( in another file), and determine if the student passed the quiz or not.
+
+//call the read function twice, once for each input file
+	//The student file should be processed first and then the answers file.
+	//If both calls to the read function work then the display function should be called.
+	//If either call to the read function does not work it should output a message stating that the specific file could not be opened.
+	//No further processing should be done if either one of the files cannot be opened.
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -11,15 +20,6 @@ void displayResults(const char [], const char []); //pass the 2 arrays
 
 int main()
 {
-	//This program will be a quiz grading program.
-	//It will compare the student's answers with the correct answers, and determine if the student passed the quiz or not.
-
-	//call the read function twice, once for each input file
-	//The student file should be processed first and then the answers file.
-	//If both calls to the read function work then the display function should be called.
-	//If either call to the read function does not work it should output a message stating that the specific file could not be opened.
-	//No further processing should be done if either one of the files cannot be opened.
-
 	//two char arrays of size 20
 	const int ARRAY_SIZE = 20;
 	char studentAnswers[ARRAY_SIZE]; //array with 20 elements  will hold student answers
