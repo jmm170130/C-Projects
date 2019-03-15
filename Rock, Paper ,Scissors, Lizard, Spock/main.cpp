@@ -6,7 +6,7 @@
 	//validate input from the user
 	//if input is not valid then ask for input again
 	//output what the computer and user selected
-	//output who won
+	//output who won the match
 	//ask if the user wants to play again
 	//if the answer is "Y" or "y" repeat the program
 	//if answer is "N" or "n" output the number of wins, losses and ties by the computer and player before terminating.
