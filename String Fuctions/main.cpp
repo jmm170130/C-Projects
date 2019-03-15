@@ -9,7 +9,13 @@
 *   Once valid input is entered the program will ask for string input and pass it to the function selected
 *   Then the selected function will return a value that is displayed to the user
 *   It will repeat this process until the user enters 0
-
+*
+*Functions:
+*		sumDigitsInString - sums the digits in a given string
+*		consonantsInString - counts consonants in a given string
+*		countVowels - counts the vowels in a string
+*		countWhiteSpace - counts white space in a given string
+*
 *  Written by Juan Marquez, starting February 20, 2018.
 ******************************************************************************/
 #include <iostream>
