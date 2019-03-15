@@ -1,3 +1,31 @@
+/******************************************************************************
+* Employee Record System
+*
+* This program will manage employee information and sort the employees alphabetically by last name:
+* 	First the program will read in any existing employee info from file(Employee.txt)
+* 	Then it will allow user to add, delete, find and save the employee data
+* 	The employee data will be saved in file(Employee.txt) before termination
+* Information acquired:
+*	firstName
+*	lastName
+*	birthDate
+*	gender
+*	startDate
+*	salary
+*
+* Functions:
+*	realFile - This function will check to see if Employee.txt exist and read info from the file
+*			   This only occurs at the beginning of the program
+*	newEmployee - adds a new employee to the system
+*	displayInfo - displays information for all employees
+*	sortArray - will sort employee array by alphabetical order
+*	loopUpEmployee - will find a specific employee and display his info
+*	save data - will save the data for all employees in a file (Employee.txt)
+*	removeEmployee - will remove an employee from the system
+*
+*  Written by Juan Marquez, starting April 2, 2018.
+******************************************************************************/
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -202,8 +230,6 @@ void newEmployee(int &employeeCount, Employee *arr[]) //this function will add a
 
 void displayInfo(int  count, Employee *arr []) //this function will sort and display all employee info
 {
-
-
 	//output headers
 	cout << setw(20) << left << "Employee ID" << "|";
 	cout << setw(20) << left << "Last Name" << "|";
