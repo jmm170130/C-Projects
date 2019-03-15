@@ -75,8 +75,6 @@ int main()
 			array[count]= rctptr;
 			++count;
 
-
-
 		}
 		else if (userInput == 2) //if user selected function 2 execute code
 		{
